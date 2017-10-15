@@ -80,13 +80,13 @@ class App extends Component {
         : '0px 10px 15px rgba(0, 0, 0, 0.1)',
       transform: this.state.isVisible
         ? 'inherit'
-        : 'perspective(500px) translateZ(-1000px) rotateX(70deg)',
+        : 'perspective(500px) translateZ(-400px) rotateX(50deg)',
       opacity: this.state.isVisible
         ? 1
         : 0,
       filter: this.state.isVisible
         ? 'inherit'
-        : 'blur(4px)',
+        : 'blur(3px)',
       cursor: 'pointer',
       transition: 'transform 2000ms cubic-bezier(0.54, 0.19999, 0.65, 0.79), opacity 2000ms cubic-bezier(0.54, 0.19999, 0.65, 0.79), filter 2000ms cubic-bezier(0.93, 0.16, 0.65, 0.79), box-shadow 250ms linear'
     }
