@@ -74,9 +74,9 @@ class App extends Component {
       width: 350,
       height: 500,
       color: 'white',
-      backgroundColor: 'rgb(56, 225, 207)',
+      backgroundColor: 'rgb(63, 209, 194)',
       boxShadow: this.state.isHovering
-        ? '0px 8px 25px rgba(24, 233, 155, 0.5)'
+        ? '0px 8px 25px rgba(24, 233, 155, 0.35)'
         : '0px 10px 15px rgba(0, 0, 0, 0.1)',
       transform: this.state.isVisible
         ? 'inherit'
