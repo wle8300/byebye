@@ -92,10 +92,10 @@ class App extends Component {
     }
   }
   styleB = () => {
-    return {margin: '1.2rem 0 0.75rem', fontSize: '1.75rem', fontFamily: '"Helvetica", sans-serif', fontWeight: 'bold', userSelect: 'none',}
+    return {margin: '1.2rem 0 0.75rem', fontSize: '1.75rem', fontFamily: '"Helvetica", sans-serif', fontWeight: 'bold', color: 'rgb(205, 255, 250)', userSelect: 'none',}
   }
   styleD = () => {
-    return {margin: 0, fontFamily: '"Helvetica", sans-serif', userSelect: 'none',}
+    return {margin: 0, fontFamily: '"Helvetica", sans-serif', color: 'rgb(205, 255, 250)', userSelect: 'none',}
   }
 }
 
